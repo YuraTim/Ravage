@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{533869c6-52b6-4ed0-a99e-4b824695cb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{8fbfa421-2cda-4dc8-8590-78025f2ab078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Graphic">
+      <UniqueIdentifier>{4d74f93d-2981-47ea-a60e-d4e883f56f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a09dc56c-ddc7-47c2-b56e-d95d06829e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\FileSystem">
+      <UniqueIdentifier>{9bc77d91-3b28-42d3-8c1a-68b3041d0c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Math">
+      <UniqueIdentifier>{5343f3d7-d1c4-450f-91c9-824445a56e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Containers">
+      <UniqueIdentifier>{74943898-9d94-4a00-927d-1f01ba160e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Patterns">
+      <UniqueIdentifier>{96f299b2-7c97-404a-9758-da8d59e502d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{79519768-9e2e-41b5-9cd6-426fcaa2f612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{4d4d59ee-351b-423b-bd89-a5e903eb819a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{3c0ae1ed-a5fb-4a71-abf2-41736ded3f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Graphic">
+      <UniqueIdentifier>{ad69302b-a456-40e1-ac1e-4de3666a544d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Graphic\OpenGL">
+      <UniqueIdentifier>{000721d1-04cd-47e1-9d29-9febac82d7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base\FileSystem">
+      <UniqueIdentifier>{8511021e-1c3a-477e-b84c-57f5e69312be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Math">
+      <UniqueIdentifier>{5479af38-5763-4956-bb38-14f3aed0db15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Win32">
+      <UniqueIdentifier>{e643d394-f9e5-4eec-b8c0-78757ac54849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{3fc57a60-9e39-434b-ae6f-b07849ef4559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Graphic\OpenGL">
+      <UniqueIdentifier>{b083544e-f90b-4093-a8bf-5cf5a440e7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Graphic\Components">
+      <UniqueIdentifier>{65ff1328-2375-4fd3-b2f7-10b9409da61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Graphic\Components">
+      <UniqueIdentifier>{152b1521-7a54-4302-883f-d22b8a3e3a82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\RavFile.h">
+      <Filter>Header Files\Base\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavFileBuffer.h">
+      <Filter>Header Files\Base\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavFileSystem.h">
+      <Filter>Header Files\Base\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavFileUtils.h">
+      <Filter>Header Files\Base\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavDefines.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMath.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathVector3.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathBase.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathMatrix4.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathQuaternion.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathVector2.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavList.h">
+      <Filter>Header Files\Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavStack.h">
+      <Filter>Header Files\Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavSingleton.h">
+      <Filter>Header Files\Utilities\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavStringUtils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavTypes.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavBase.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavConfigFile.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavRenderer.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavRenderCore.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavEvent.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavListener.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavFileModes.h">
+      <Filter>Header Files\Base\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavSettings.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavSystemSettings.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavDisplaySettings.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavDisplayWindow.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavGraphicSettings.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavRendererOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavUtilitiesOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32\RavDisplayWindowWin32.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32\RavFileBufferWin32.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavLibrariesOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavVertexDeclaration.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavVertexData.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavIndexData.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavVertexBuffer.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavIndexBuffer.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavGraphicEnum.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavDrawOperation.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavVertexBufferOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavIndexBufferOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavShader.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavAssetBuffer.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavAsset.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavCg.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavResourceAsset.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavShaderPass.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavShaderPassOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavVertexDataOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMaterial.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavMathVector4.h">
+      <Filter>Header Files\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavColor.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavShaderManager.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavObject.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavRenderable.h">
+      <Filter>Header Files\System\Graphic\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavComponent.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoaderObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavTransform.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavLight.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavTimer.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32\RavTimerWin32.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavTexture.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavRenderTexture.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavTextureOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavRenderTextureOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RavTexture2D.h">
+      <Filter>Header Files\System\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OpenGL\RavTexture2DOpenGL.h">
+      <Filter>Header Files\System\Graphic\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\RavFile.cpp">
+      <Filter>Source Files\Base\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavFileSystem.cpp">
+      <Filter>Source Files\Base\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavFileUtils.cpp">
+      <Filter>Source Files\Base\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavConfigFile.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavEvent.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavMathMatrix4.cpp">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavMathVector2.cpp">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavMathVector3.cpp">
+      <Filter>Source Files\Utilities\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavStringUtils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32\RavFileBufferWin32.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavUtilitiesOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavRendererOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavDisplaySettings.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavSystemSettings.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavRenderCore.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavGraphicSettings.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32\RavDisplayWindowWin32.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavAssetBuffer.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavShader.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavAsset.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavVertexBufferOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavVertexData.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavResourceAsset.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavShaderPassOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavShaderPass.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavVertexDataOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavMaterial.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavRenderable.cpp">
+      <Filter>Source Files\System\Graphic\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoaderObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavColor.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavIndexBufferOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32\RavTimerWin32.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavTextureOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavRenderTextureOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RavVertexDeclaration.cpp">
+      <Filter>Source Files\System\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGL\RavTexture2DOpenGL.cpp">
+      <Filter>Source Files\System\Graphic\OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

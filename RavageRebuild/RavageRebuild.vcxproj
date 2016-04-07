@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="include\Light.h" />
+    <ClInclude Include="include\OpenGL\RavIndexBufferOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavLibrariesOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavRendererOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavRenderTextureOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavShaderPassOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavTexture2DOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavTextureOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavUtilitiesOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavVertexBufferOpenGL.h" />
+    <ClInclude Include="include\OpenGL\RavVertexDataOpenGL.h" />
+    <ClInclude Include="include\RavAsset.h" />
+    <ClInclude Include="include\RavAssetBuffer.h" />
+    <ClInclude Include="include\RavBase.h" />
+    <ClInclude Include="include\RavCg.h" />
+    <ClInclude Include="include\RavColor.h" />
+    <ClInclude Include="include\RavComponent.h" />
+    <ClInclude Include="include\RavConfigFile.h" />
+    <ClInclude Include="include\RavDefines.h" />
+    <ClInclude Include="include\RavDisplaySettings.h" />
+    <ClInclude Include="include\RavDisplayWindow.h" />
+    <ClInclude Include="include\RavDrawOperation.h" />
+    <ClInclude Include="include\RavEvent.h" />
+    <ClInclude Include="include\RavFile.h" />
+    <ClInclude Include="include\RavFileBuffer.h" />
+    <ClInclude Include="include\RavFileModes.h" />
+    <ClInclude Include="include\RavFileSystem.h" />
+    <ClInclude Include="include\RavFileUtils.h" />
+    <ClInclude Include="include\RavGraphicEnum.h" />
+    <ClInclude Include="include\RavGraphicSettings.h" />
+    <ClInclude Include="include\RavIndexBuffer.h" />
+    <ClInclude Include="include\RavIndexData.h" />
+    <ClInclude Include="include\RavLight.h" />
+    <ClInclude Include="include\RavList.h" />
+    <ClInclude Include="include\RavListener.h" />
+    <ClInclude Include="include\RavMaterial.h" />
+    <ClInclude Include="include\RavMath.h" />
+    <ClInclude Include="include\RavMathBase.h" />
+    <ClInclude Include="include\RavMathMatrix4.h" />
+    <ClInclude Include="include\RavMathQuaternion.h" />
+    <ClInclude Include="include\RavMathVector2.h" />
+    <ClInclude Include="include\RavMathVector3.h" />
+    <ClInclude Include="include\RavMathVector4.h" />
+    <ClInclude Include="include\RavObject.h" />
+    <ClInclude Include="include\RavRenderable.h" />
+    <ClInclude Include="include\RavRenderTexture.h" />
+    <ClInclude Include="include\RavResourceAsset.h" />
+    <ClInclude Include="include\RavSettings.h" />
+    <ClInclude Include="include\RavShader.h" />
+    <ClInclude Include="include\RavShaderManager.h" />
+    <ClInclude Include="include\RavShaderPass.h" />
+    <ClInclude Include="include\RavSystemSettings.h" />
+    <ClInclude Include="include\RavRenderCore.h" />
+    <ClInclude Include="include\RavRenderer.h" />
+    <ClInclude Include="include\RavSingleton.h" />
+    <ClInclude Include="include\RavStack.h" />
+    <ClInclude Include="include\RavStringUtils.h" />
+    <ClInclude Include="include\RavTexture.h" />
+    <ClInclude Include="include\RavTexture2D.h" />
+    <ClInclude Include="include\RavTimer.h" />
+    <ClInclude Include="include\RavTransform.h" />
+    <ClInclude Include="include\RavTypes.h" />
+    <ClInclude Include="include\RavVertexBuffer.h" />
+    <ClInclude Include="include\RavVertexData.h" />
+    <ClInclude Include="include\RavVertexDeclaration.h" />
+    <ClInclude Include="include\Win32\RavDisplayWindowWin32.h" />
+    <ClInclude Include="include\Win32\RavFileBufferWin32.h" />
+    <ClInclude Include="include\Win32\RavTimerWin32.h" />
+    <ClInclude Include="MeshLoaderObj.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MeshLoaderObj.cpp" />
+    <ClCompile Include="src\OpenGL\RavIndexBufferOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavRendererOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavRenderTextureOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavShaderPassOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavTexture2DOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavTextureOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavUtilitiesOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavVertexBufferOpenGL.cpp" />
+    <ClCompile Include="src\OpenGL\RavVertexDataOpenGL.cpp" />
+    <ClCompile Include="src\RavAsset.cpp" />
+    <ClCompile Include="src\RavAssetBuffer.cpp" />
+    <ClCompile Include="src\RavColor.cpp" />
+    <ClCompile Include="src\RavConfigFile.cpp" />
+    <ClCompile Include="src\RavDisplaySettings.cpp" />
+    <ClCompile Include="src\RavEvent.cpp" />
+    <ClCompile Include="src\RavFile.cpp" />
+    <ClCompile Include="src\RavFileSystem.cpp" />
+    <ClCompile Include="src\RavFileUtils.cpp" />
+    <ClCompile Include="src\RavGraphicSettings.cpp" />
+    <ClCompile Include="src\RavMaterial.cpp" />
+    <ClCompile Include="src\RavMathMatrix4.cpp" />
+    <ClCompile Include="src\RavMathVector2.cpp" />
+    <ClCompile Include="src\RavMathVector3.cpp" />
+    <ClCompile Include="src\RavRenderable.cpp" />
+    <ClCompile Include="src\RavRenderCore.cpp" />
+    <ClCompile Include="src\RavResourceAsset.cpp" />
+    <ClCompile Include="src\RavShader.cpp" />
+    <ClCompile Include="src\RavShaderPass.cpp" />
+    <ClCompile Include="src\RavStringUtils.cpp" />
+    <ClCompile Include="src\RavSystemSettings.cpp" />
+    <ClCompile Include="src\RavVertexData.cpp" />
+    <ClCompile Include="src\RavVertexDeclaration.cpp" />
+    <ClCompile Include="src\Win32\RavDisplayWindowWin32.cpp" />
+    <ClCompile Include="src\Win32\RavFileBufferWin32.cpp" />
+    <ClCompile Include="src\Win32\RavTimerWin32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BED57F56-C68B-41F6-B39F-53A8AC68A20E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RavageRebuild</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
